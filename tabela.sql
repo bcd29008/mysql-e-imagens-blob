@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `Cidade` (
+  `idCidade` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NOT NULL,
+  `pais` VARCHAR(45) NOT NULL,
+  `foto` LONGBLOB NULL,
+  PRIMARY KEY (`idCidade`))
+ENGINE = InnoDB
