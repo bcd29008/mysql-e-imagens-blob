@@ -5,13 +5,12 @@ Um pequeno exemplo para demonstrar como inserir e recuperar imagens (arquivo bin
 Crie uma tabela com base na instruções SQL abaixo:
 
 ```sql
-CREATE TABLE IF NOT EXISTS `Cidade` (
-  `idCidade` INT NOT NULL AUTO_INCREMENT,
-  `nome` VARCHAR(45) NOT NULL,
-  `pais` VARCHAR(45) NOT NULL,
-  `foto` LONGBLOB NULL,
-  PRIMARY KEY (`idCidade`))
-ENGINE = InnoDB
+CREATE TABLE IF NOT EXISTS Cidade (
+  idCidade INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NOT NULL,
+  pais VARCHAR(45) NOT NULL,
+  foto LONGBLOB NULL,
+  PRIMARY KEY (idCidade))
 ```
 
 ## Executando o projeto
